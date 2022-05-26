@@ -7,7 +7,7 @@ if [[ ! -d $XDG_CACHE_HOME/hugo ]]; then
   wget -P ~/tmp https://github.com/gohugoio/hugo/releases/download/v0.99.1/hugo_0.99.1_Linux-32bit.tar.gz
   cd ~/tmp
 	echo "...Extracting HUGO"
-  tar -xzf hugo_0.99.1_Linux-32bit.tar.gz
+  tar -xzvf hugo_0.99.1_Linux-32bit.tar.gz
 	echo "...Moving HUGO"
 	mv hugo_0.99.1_Linux-32bit/hugo $XDG_CACHE_HOME/hugo	
 
