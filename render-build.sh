@@ -9,7 +9,7 @@ if [[ ! -d $XDG_CACHE_HOME/hugo ]]; then
 	echo "...Extracting HUGO"
   tar -xzvf hugo_0.99.1_Linux-32bit.tar.gz
 	echo "...Moving HUGO"
-	mv hugo_0.99.1_Linux-32bit/hugo $XDG_CACHE_HOME/hugo	
+	mv hugo $XDG_CACHE_HOME/hugo	
 
   cd $HOME/project/src # Make sure we return to where we were
 else
