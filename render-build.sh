@@ -1,6 +1,6 @@
 hugo version
 
-if [[ ! -d $XDG_CACHE_HOME/hugo ]]; then
+if [[ ! -f $XDG_CACHE_HOME/hugo ]]; then
   echo "...Downloading HUGO"
   mkdir -p ~/tmp
 
