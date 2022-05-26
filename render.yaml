@@ -1,0 +1,5 @@
+- type: web
+    name: john-not-hugo
+    env: static
+    buildCommand: hugo --gc --minify -t hugo-icon --config themes/hugo-icon/exampleSite/config.toml
+    staticPublishPath: ./public
