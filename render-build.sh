@@ -16,6 +16,4 @@ else
   echo "...Using HUGO from build cache"
 fi
 
-$XDG_CACHE_HOME/hugo version
-sleep 5
 $XDG_CACHE_HOME/hugo --gc --minify -t hugo-icon --config themes/hugo-icon/exampleSite/config.toml
