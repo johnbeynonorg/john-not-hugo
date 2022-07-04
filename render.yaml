@@ -4,3 +4,4 @@ services:
     env: static
     buildCommand: ./render-build.sh
     staticPublishPath: ./public
+    pullRequestPreviewsEnabled: true
